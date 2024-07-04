@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="store.css">
+</head>
+
+<body>
+  <div>
+    <input id="date" type="date">
+    <input id="txt" size="30px" type="text">
+    <input id="mny" size="50px" type="text">
+  </div>
+  <button id="submit">إضافة</button>
+  <h1>حركة المخزن </h1>
+  <table>
+    <thead>
+      <tr>
+        <th>تاريخ</th>
+        <th>بيان</th>
+        <th>الموجودين</th>
+
+      </tr>
+    </thead>
+    <tbody id="myTable">
+      <!-- سيتم إدراج الصفوف هنا -->
+    </tbody>
+  </table>
+
+
+
+  <img id="imag" src="logo~2.png" alt="logo.png">
+  <button id="prt" onclick="prnt()">طباعة الصفحة</button>
+
+  <button id="ddd">
+    <a href="javascript:window.location.reload()" target="_self">تحديث الصفحة</a>
+  </button>
+
+  <div id="deleteAllContainer"></div>
+
+  <!-- رابط لملف الجافا سكريبت -->
+  <script src="store.js" defer></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+

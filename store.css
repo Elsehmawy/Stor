@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl
+  
+}
+
+body {
+  
+    font-size: 25pt;
+    background: #ccc;
+} 
+div{
+  margin: 50px 10px 30px 10px;
+  padding: 5px;
+ display: block;
+}
+input {
+  margin: 10px;
+  padding: 5px;
+  border: black 5px solid;
+  border-radius: 50px;
+  
+  
+}
+button {
+  width: 50%;
+  
+  margin-bottom: 30px;
+  margin-right: 20%;
+  padding: 10px;
+  background: green;
+  color: #fff;
+  font-size: 30px;
+  border-radius:50px;
+  outline: none;
+  border: none;
+}
+table {
+  width: 100%;
+  text-align: center;
+}
+
+#ddd {
+  display: none;
+  border: none;
+  background: blueviolet;
+ 
+}
+@media print {
+  #ddd {
+    display: block;
+  }
+}
+a {
+  color: #fff;
+  
+}
+#delet {
+  background: darkred;
+  color: indianred;
+  width: 100px;
+}
+#deleteAll{
+  display: none;
+    background: darkred;
+}
+img {
+  width: 50%;
+margin-top: 20px;
+margin-bottom: 30px;
+margin-right: 20%;
+padding: 10px;
+color: #fff;
+font-size: 30px
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  background: #B3BB87;
+  color: #962994;
+  border-radius: 50px;
+}
+#edit, #delet ,#save{
+  width: 100%;
+  border-radius:20% 
+}
+
+#save {
+  color: #DDF824;
+}
